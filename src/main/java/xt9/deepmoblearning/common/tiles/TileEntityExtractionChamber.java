@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 public class TileEntityExtractionChamber extends TileEntity implements ITickable, IGuiTile {
     private BaseItemHandler pristine = new PristineHandler();
     private BaseItemHandler output = new OutputHandler(16);
-    private DeepEnergyStorage energyStorage = new DeepEnergyStorage(10000000, 256000, 0, 0);
+    private DeepEnergyStorage energyStorage = new DeepEnergyStorage(8000000, 256000, 0, 0);
 
     public boolean isCrafting = false;
     public int energy = 0;

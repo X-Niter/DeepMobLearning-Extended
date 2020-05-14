@@ -43,7 +43,7 @@ public class Tier {
             case 7: return "§9Advanced§r";
             case 8: return "§dSuperior§r";
             case 9: return "§1Rare§r";
-            case 10: return "§Reflecting§r";
+            case 10: return "§bReflecting§r";
             case 11: return "§3Rumored§r";
             case 12: return "§5Epic§r";
             case 13: return "§aRadiant§r";
