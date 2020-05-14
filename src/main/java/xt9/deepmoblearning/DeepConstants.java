@@ -24,10 +24,10 @@ public class DeepConstants {
     public static final int DEEP_LEARNER_INTERNAL_SLOTS_SIZE = 4;
 
     // Data model max tier
-    public static final int DATA_MODEL_MAXIMUM_TIER = 4;
+    public static final int DATA_MODEL_MAXIMUM_TIER = 16;
 
     // Config restraints
-    public static final int MAX_DATA_MODEL_COST = 6666;
+    public static final int MAX_DATA_MODEL_COST = 256000;
 
     // Loaded mod booleans
     public static final boolean MOD_TE_LOADED = Loader.isModLoaded("thermalfoundation");
