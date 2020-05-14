@@ -1,6 +1,6 @@
 [{
   "modid": "deepmoblearning",
-  "name": "Deep Mob Learning",
+  "name": "Deep Mob Learning (Grindfest Edition)",
   "description": "Server friendly mob loot acquisition.",
   "version": "${version}",
   "mcversion": "${mcversion}",

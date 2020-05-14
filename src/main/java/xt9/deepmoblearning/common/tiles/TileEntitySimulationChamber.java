@@ -44,7 +44,7 @@ public class TileEntitySimulationChamber extends TileEntity implements ITickable
     private BaseItemHandler polymer = new PolymerHandler();
     private BaseItemHandler lOutput = new OutputHandler();
     private BaseItemHandler pOutput = new OutputHandler();
-    private DeepEnergyStorage energyStorage = new DeepEnergyStorage(2000000, 25600 , 0, 0);
+    private DeepEnergyStorage energyStorage = new DeepEnergyStorage(4000000, 256000, 0, 0);
 
     private HashMap<String, Animation> simulationAnimations = new HashMap<>();
     private HashMap<String, String> simulationText = new HashMap<>();
