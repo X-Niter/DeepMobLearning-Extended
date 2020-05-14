@@ -13,6 +13,18 @@ public class DataModelExperience {
         MathHelper.ensureRange(Config.modelExperience.get("killMultiplierTier1").getInt(), 1, 100),
         MathHelper.ensureRange(Config.modelExperience.get("killMultiplierTier2").getInt(), 1, 100),
         MathHelper.ensureRange(Config.modelExperience.get("killMultiplierTier3").getInt(), 1, 100),
+        MathHelper.ensureRange(Config.modelExperience.get("killMultiplierTier4").getInt(), 1, 100),
+        MathHelper.ensureRange(Config.modelExperience.get("killMultiplierTier5").getInt(), 1, 100),
+        MathHelper.ensureRange(Config.modelExperience.get("killMultiplierTier6").getInt(), 1, 100),
+        MathHelper.ensureRange(Config.modelExperience.get("killMultiplierTier7").getInt(), 1, 100),
+        MathHelper.ensureRange(Config.modelExperience.get("killMultiplierTier8").getInt(), 1, 100),
+        MathHelper.ensureRange(Config.modelExperience.get("killMultiplierTier9").getInt(), 1, 100),
+        MathHelper.ensureRange(Config.modelExperience.get("killMultiplierTier10").getInt(), 1, 100),
+        MathHelper.ensureRange(Config.modelExperience.get("killMultiplierTier11").getInt(), 1, 100),
+        MathHelper.ensureRange(Config.modelExperience.get("killMultiplierTier12").getInt(), 1, 100),
+        MathHelper.ensureRange(Config.modelExperience.get("killMultiplierTier13").getInt(), 1, 100),
+        MathHelper.ensureRange(Config.modelExperience.get("killMultiplierTier14").getInt(), 1, 100),
+        MathHelper.ensureRange(Config.modelExperience.get("killMultiplierTier15").getInt(), 1, 100),
         0 // Max tier, no kill multiplier
     };
 
@@ -21,6 +33,18 @@ public class DataModelExperience {
         MathHelper.ensureRange(Config.modelExperience.get("killsToTier2").getInt(), 1, 500) * killMultiplier[1],
         MathHelper.ensureRange(Config.modelExperience.get("killsToTier3").getInt(), 1, 500) * killMultiplier[2],
         MathHelper.ensureRange(Config.modelExperience.get("killsToTier4").getInt(), 1, 500) * killMultiplier[3],
+        MathHelper.ensureRange(Config.modelExperience.get("killsToTier5").getInt(), 1, 500) * killMultiplier[4],
+        MathHelper.ensureRange(Config.modelExperience.get("killsToTier6").getInt(), 1, 500) * killMultiplier[5],
+        MathHelper.ensureRange(Config.modelExperience.get("killsToTier7").getInt(), 1, 500) * killMultiplier[6],
+        MathHelper.ensureRange(Config.modelExperience.get("killsToTier8").getInt(), 1, 500) * killMultiplier[7],
+        MathHelper.ensureRange(Config.modelExperience.get("killsToTier9").getInt(), 1, 500) * killMultiplier[8],
+        MathHelper.ensureRange(Config.modelExperience.get("killsToTier10").getInt(), 1, 500) * killMultiplier[9],
+        MathHelper.ensureRange(Config.modelExperience.get("killsToTier11").getInt(), 1, 500) * killMultiplier[10],
+        MathHelper.ensureRange(Config.modelExperience.get("killsToTier12").getInt(), 1, 500) * killMultiplier[11],
+        MathHelper.ensureRange(Config.modelExperience.get("killsToTier13").getInt(), 1, 500) * killMultiplier[12],
+        MathHelper.ensureRange(Config.modelExperience.get("killsToTier14").getInt(), 1, 500) * killMultiplier[13],
+        MathHelper.ensureRange(Config.modelExperience.get("killsToTier15").getInt(), 1, 500) * killMultiplier[14],
+        MathHelper.ensureRange(Config.modelExperience.get("killsToTier16").getInt(), 1, 500) * killMultiplier[15],
     };
 
     /* tier is CURRENT tier, kc is kill count for CURRENT tier, sc is simulation count for CURRENT  tier */

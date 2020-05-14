@@ -154,10 +154,22 @@ public class Config {
         pristineChance.setComment("The chance to output pristine matter from the various tiers\nStarts at basic since faulty models can't be used in the simulation chamber");
         config.setCategoryComment(pristineChance.getName(), pristineChance.getComment());
 
-        pristineChance.put("tier1", config.get(pristineChance.getName(), "tier1", 5, null, 1, 100));
-        pristineChance.put("tier2", config.get(pristineChance.getName(), "tier2", 11, null, 1, 100));
-        pristineChance.put("tier3", config.get(pristineChance.getName(), "tier3", 24, null, 1, 100));
-        pristineChance.put("tier4", config.get(pristineChance.getName(), "tier4", 42, null, 1, 100));
+        pristineChance.put("tier1", config.get(pristineChance.getName(), "tier1", 4, null, 1, 100));
+        pristineChance.put("tier2", config.get(pristineChance.getName(), "tier2", 8, null, 1, 100));
+        pristineChance.put("tier3", config.get(pristineChance.getName(), "tier3", 12, null, 1, 100));
+        pristineChance.put("tier4", config.get(pristineChance.getName(), "tier4", 16, null, 1, 100));
+        pristineChance.put("tier5", config.get(pristineChance.getName(), "tier5", 20, null, 1, 100));
+        pristineChance.put("tier6", config.get(pristineChance.getName(), "tier6", 24, null, 1, 100));
+        pristineChance.put("tier7", config.get(pristineChance.getName(), "tier7", 28, null, 1, 100));
+        pristineChance.put("tier8", config.get(pristineChance.getName(), "tier8", 32, null, 1, 100));
+        pristineChance.put("tier9", config.get(pristineChance.getName(), "tier9", 36, null, 1, 100));
+        pristineChance.put("tier10", config.get(pristineChance.getName(), "tier10", 40, null, 1, 100));
+        pristineChance.put("tier11", config.get(pristineChance.getName(), "tier11", 44, null, 1, 100));
+        pristineChance.put("tier12", config.get(pristineChance.getName(), "tier12", 48, null, 1, 100));
+        pristineChance.put("tier13", config.get(pristineChance.getName(), "tier13", 52, null, 1, 100));
+        pristineChance.put("tier14", config.get(pristineChance.getName(), "tier14", 56, null, 1, 100));
+        pristineChance.put("tier15", config.get(pristineChance.getName(), "tier15", 60, null, 1, 100));
+        pristineChance.put("tier16", config.get(pristineChance.getName(), "tier16", 70, null, 1, 100));
     }
 
     private static void initModelExperience() {
@@ -165,14 +177,38 @@ public class Config {
         config.setCategoryComment(modelExperience.getName(), modelExperience.getComment());
 
         modelExperience.put("killMultiplierTier0", config.get(modelExperience.getName(), "killMultiplierTier0", 1, "How much data you get per kill on the Faulty tier (It's Best to leave this at 1, as a baseline)", 1, 100));
-        modelExperience.put("killMultiplierTier1", config.get(modelExperience.getName(), "killMultiplierTier1", 4, "How much data you get per kill on the Basic tier", 1, 100));
-        modelExperience.put("killMultiplierTier2", config.get(modelExperience.getName(), "killMultiplierTier2", 10, "How much data you get per kill on the Advanced tier", 1, 100));
-        modelExperience.put("killMultiplierTier3", config.get(modelExperience.getName(), "killMultiplierTier3", 18, "How much data you get per kill on the Superior tier", 1, 100));
+        modelExperience.put("killMultiplierTier1", config.get(modelExperience.getName(), "killMultiplierTier1", 2, "How much data you get per kill on the Unrefined tier", 1, 100));
+        modelExperience.put("killMultiplierTier2", config.get(modelExperience.getName(), "killMultiplierTier2", 4, "How much data you get per kill on the Basic tier", 1, 100));
+        modelExperience.put("killMultiplierTier3", config.get(modelExperience.getName(), "killMultiplierTier3", 8, "How much data you get per kill on the Common tier", 1, 100));
+        modelExperience.put("killMultiplierTier4", config.get(modelExperience.getName(), "killMultiplierTier4", 16, "How much data you get per kill on the Formal tier", 1, 100));
+        modelExperience.put("killMultiplierTier5", config.get(modelExperience.getName(), "killMultiplierTier5", 32, "How much data you get per kill on the Uncommon tier", 1, 100));
+        modelExperience.put("killMultiplierTier6", config.get(modelExperience.getName(), "killMultiplierTier6", 64, "How much data you get per kill on the Fixed tier", 1, 100));
+        modelExperience.put("killMultiplierTier7", config.get(modelExperience.getName(), "killMultiplierTier7", 128, "How much data you get per kill on the Advanced tier", 1, 100));
+        modelExperience.put("killMultiplierTier8", config.get(modelExperience.getName(), "killMultiplierTier8", 256, "How much data you get per kill on the Superior tier", 1, 100));
+        modelExperience.put("killMultiplierTier9", config.get(modelExperience.getName(), "killMultiplierTier9", 512, "How much data you get per kill on the Rare tier", 1, 100));
+        modelExperience.put("killMultiplierTier10", config.get(modelExperience.getName(), "killMultiplierTier10", 1024, "How much data you get per kill on the Reflecting tier", 1, 100));
+        modelExperience.put("killMultiplierTier11", config.get(modelExperience.getName(), "killMultiplierTier11", 2048, "How much data you get per kill on the Rumored tier", 1, 100));
+        modelExperience.put("killMultiplierTier12", config.get(modelExperience.getName(), "killMultiplierTier12", 4096, "How much data you get per kill on the Epic tier", 1, 100));
+        modelExperience.put("killMultiplierTier13", config.get(modelExperience.getName(), "killMultiplierTier13", 8192, "How much data you get per kill on the Radiant tier", 1, 100));
+        modelExperience.put("killMultiplierTier14", config.get(modelExperience.getName(), "killMultiplierTier14", 16384, "How much data you get per kill on the Self Aware tier", 1, 100));
+        modelExperience.put("killMultiplierTier15", config.get(modelExperience.getName(), "killMultiplierTier15", 32768, "How much data you get per kill on the Legendary tier", 1, 100));
 
-        modelExperience.put("killsToTier1", config.get(modelExperience.getName(), "killsToTier1", 6, "Number of kills to reach the Basic tier.", 1, 500));
-        modelExperience.put("killsToTier2", config.get(modelExperience.getName(), "killsToTier2", 12, "Number of kills to reach the Advanced tier.", 1, 500));
-        modelExperience.put("killsToTier3", config.get(modelExperience.getName(), "killsToTier3", 30, "Number of kills to reach the Superior tier.", 1, 500));
-        modelExperience.put("killsToTier4", config.get(modelExperience.getName(), "killsToTier4", 50, "Number of kills to reach the Self Aware tier.", 1, 500));
+        modelExperience.put("killsToTier1", config.get(modelExperience.getName(), "killsToTier1", 6, "Number of kills to reach the Unrefined tier.", 1, 500));
+        modelExperience.put("killsToTier2", config.get(modelExperience.getName(), "killsToTier2", 12, "Number of kills to reach the Basic tier.", 1, 500));
+        modelExperience.put("killsToTier3", config.get(modelExperience.getName(), "killsToTier3", 24, "Number of kills to reach the Common tier.", 1, 500));
+        modelExperience.put("killsToTier4", config.get(modelExperience.getName(), "killsToTier4", 48, "Number of kills to reach the Formal tier.", 1, 500));
+        modelExperience.put("killsToTier5", config.get(modelExperience.getName(), "killsToTier5", 96, "Number of kills to reach the Uncommon tier.", 1, 500));
+        modelExperience.put("killsToTier6", config.get(modelExperience.getName(), "killsToTier6", 192, "Number of kills to reach the Fixed tier.", 1, 500));
+        modelExperience.put("killsToTier7", config.get(modelExperience.getName(), "killsToTier7", 384, "Number of kills to reach the Advanced tier.", 1, 500));
+        modelExperience.put("killsToTier8", config.get(modelExperience.getName(), "killsToTier8", 768, "Number of kills to reach the Superior tier.", 1, 500));
+        modelExperience.put("killsToTier9", config.get(modelExperience.getName(), "killsToTier9", 1536, "Number of kills to reach the Rare tier.", 1, 500));
+        modelExperience.put("killsToTier10", config.get(modelExperience.getName(), "killsToTier10", 3072, "Number of kills to reach the Reflecting tier.", 1, 500));
+        modelExperience.put("killsToTier11", config.get(modelExperience.getName(), "killsToTier11", 6144, "Number of kills to reach the Rumored tier.", 1, 500));
+        modelExperience.put("killsToTier12", config.get(modelExperience.getName(), "killsToTier12", 12288, "Number of kills to reach the Epic tier.", 1, 500));
+        modelExperience.put("killsToTier13", config.get(modelExperience.getName(), "killsToTier13", 24576, "Number of kills to reach the Radiant tier.", 1, 500));
+        modelExperience.put("killsToTier14", config.get(modelExperience.getName(), "killsToTier14", 49152, "Number of kills to reach the Self Aware tier.", 1, 500));
+        modelExperience.put("killsToTier15", config.get(modelExperience.getName(), "killsToTier15", 98304, "Number of kills to reach the Legendary tier.", 1, 500));
+        modelExperience.put("killsToTier16", config.get(modelExperience.getName(), "killsToTier16", 196608, "Number of kills to reach the Perfect tier.", 1, 500));
     }
 
     private static void initPristineOutputs() {
