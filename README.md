@@ -1,4 +1,6 @@
-# Deep Mob Learning (Grindfest Edition) (For Personal Use Only)
+# Deep Mob Learning (Grindfest Edition)
+(For Personal Use Only)
+
 A server friendly mod for mob loot acquisition. It's inspired by the Soul shards mod where you could "collect" mob kills to later
 reuse them for mob spawners.
 
