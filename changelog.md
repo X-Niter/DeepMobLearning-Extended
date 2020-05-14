@@ -1,5 +1,10 @@
 # 1.12.2
 
+### 2.6.0
+- Added more configurable tiers to the data model aka [Grindfest Edition].
+- Increased the RF storage on blocks.
+- Increased max tick cost for the different data models (Untested).
+
 ### 2.5.2
 - [#30] Added a config option to disable the creative flight on the Glitch armor.
 - [#33] Reworked how enderman teleports are disabled during trials. (I apologize for the frustration this may have caused, I know they would teleport around in SF4)
