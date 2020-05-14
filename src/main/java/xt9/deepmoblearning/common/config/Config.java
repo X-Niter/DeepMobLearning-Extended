@@ -173,23 +173,23 @@ public class Config {
     }
 
     private static void initModelExperience() {
-        modelExperience.setComment("DISCLAIMER: Please tweak these values responsibly if you're building modpacks for the public, This mods intent is not to be grindy or \"timegated\"\nRemember that a high kill multiplier devalues how much you can use the simulation chamber for leveling\nFor example, a killmultiplier of 100 and 2 required kills to next tier is the equivalent of 200 simulations\nData formula: killmultiplier * requiredKills\nMax multiplier:65536‬ \nMax kills to next tier: 200000");
+        modelExperience.setComment("DISCLAIMER: Please tweak these values responsibly if you're building modpacks for the public, This mods intent is not to be grindy or \"timegated\"\nRemember that a high kill multiplier devalues how much you can use the simulation chamber for leveling\nFor example, a killmultiplier of 100 and 2 required kills to next tier is the equivalent of 200 simulations\nData formula: killmultiplier * requiredKills\nMax multiplier:10000 \nMax kills to next tier: 200000");
         config.setCategoryComment(modelExperience.getName(), modelExperience.getComment());
 
-        modelExperience.put("killMultiplierTier0", config.get(modelExperience.getName(), "killMultiplierTier0", 1, "How much data you get per kill on the Faulty tier (It's Best to leave this at 1, as a baseline)", 1, 10000‬));
-        modelExperience.put("killMultiplierTier1", config.get(modelExperience.getName(), "killMultiplierTier1", 2, "How much data you get per kill on the Unrefined tier", 1, 10000‬));
-        modelExperience.put("killMultiplierTier2", config.get(modelExperience.getName(), "killMultiplierTier2", 4, "How much data you get per kill on the Basic tier", 1, 10000‬));
-        modelExperience.put("killMultiplierTier3", config.get(modelExperience.getName(), "killMultiplierTier3", 6, "How much data you get per kill on the Common tier", 1, 10000‬));
+        modelExperience.put("killMultiplierTier0", config.get(modelExperience.getName(), "killMultiplierTier0", 1, "How much data you get per kill on the Faulty tier (It's Best to leave this at 1, as a baseline)", 1, 10000));
+        modelExperience.put("killMultiplierTier1", config.get(modelExperience.getName(), "killMultiplierTier1", 2, "How much data you get per kill on the Unrefined tier", 1, 10000));
+        modelExperience.put("killMultiplierTier2", config.get(modelExperience.getName(), "killMultiplierTier2", 4, "How much data you get per kill on the Basic tier", 1, 10000));
+        modelExperience.put("killMultiplierTier3", config.get(modelExperience.getName(), "killMultiplierTier3", 6, "How much data you get per kill on the Common tier", 1, 10000));
         modelExperience.put("killMultiplierTier4", config.get(modelExperience.getName(), "killMultiplierTier4", 8, "How much data you get per kill on the Formal tier", 1, 10000));
-        modelExperience.put("killMultiplierTier5", config.get(modelExperience.getName(), "killMultiplierTier5", 16, "How much data you get per kill on the Uncommon tier", 1, 10000‬));
+        modelExperience.put("killMultiplierTier5", config.get(modelExperience.getName(), "killMultiplierTier5", 16, "How much data you get per kill on the Uncommon tier", 1, 10000));
         modelExperience.put("killMultiplierTier6", config.get(modelExperience.getName(), "killMultiplierTier6", 24, "How much data you get per kill on the Fixed tier", 1, 10000));
-        modelExperience.put("killMultiplierTier7", config.get(modelExperience.getName(), "killMultiplierTier7", 32, "How much data you get per kill on the Advanced tier", 1, 10000‬));
-        modelExperience.put("killMultiplierTier8", config.get(modelExperience.getName(), "killMultiplierTier8", 64, "How much data you get per kill on the Superior tier", 1, 10000‬));
+        modelExperience.put("killMultiplierTier7", config.get(modelExperience.getName(), "killMultiplierTier7", 32, "How much data you get per kill on the Advanced tier", 1, 10000));
+        modelExperience.put("killMultiplierTier8", config.get(modelExperience.getName(), "killMultiplierTier8", 64, "How much data you get per kill on the Superior tier", 1, 10000));
         modelExperience.put("killMultiplierTier9", config.get(modelExperience.getName(), "killMultiplierTier9", 96, "How much data you get per kill on the Rare tier", 1, 10000));
         modelExperience.put("killMultiplierTier10", config.get(modelExperience.getName(), "killMultiplierTier10", 128, "How much data you get per kill on the Reflecting tier", 1, 10000));
         modelExperience.put("killMultiplierTier11", config.get(modelExperience.getName(), "killMultiplierTier11", 192, "How much data you get per kill on the Rumored tier", 1, 10000));
         modelExperience.put("killMultiplierTier12", config.get(modelExperience.getName(), "killMultiplierTier12", 256, "How much data you get per kill on the Epic tier", 1, 10000));
-        modelExperience.put("killMultiplierTier13", config.get(modelExperience.getName(), "killMultiplierTier13", 384, "How much data you get per kill on the Radiant tier", 1, 10000‬));
+        modelExperience.put("killMultiplierTier13", config.get(modelExperience.getName(), "killMultiplierTier13", 384, "How much data you get per kill on the Radiant tier", 1, 10000));
         modelExperience.put("killMultiplierTier14", config.get(modelExperience.getName(), "killMultiplierTier14", 512, "How much data you get per kill on the Self Aware tier", 1, 10000));
         modelExperience.put("killMultiplierTier15", config.get(modelExperience.getName(), "killMultiplierTier15", 1024, "How much data you get per kill on the Legendary tier", 1, 10000));
 
