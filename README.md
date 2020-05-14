@@ -1,4 +1,4 @@
-# Deep Mob Learning
+# Deep Mob Learning (Grindfest Edition)
 A server friendly mod for mob loot acquisition. It's inspired by the Soul shards mod where you could "collect" mob kills to later
 reuse them for mob spawners.
 
