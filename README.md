@@ -1,7 +1,7 @@
 <h1 align="center">Deep Mob Learning 1.12.2 Extended</h1>
 <p>
   <a href="https://discord.gg/SjveGar">
-      <img src="https://discordapp.com/api/guilds/678877745060773900/embed.png" alt="Discord-Server"/>
+      <img src="https://discordapp.com/api/guilds/678877745060773900/widget.png" alt="Discord-Server"/>
   </a>
   <a href="https://github.com/X-Niter/DeepMobLearning-1.12-Extended/blob/master/LICENSE">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" target="_blank" />
@@ -35,7 +35,7 @@ I have taken it into my own hands to build off that and interegrate the further 
 
 ## Project / Feature Tracker
 
-You can find the planed features and changed over on the [DML-1.12.2-Extended Tracker](https://github.com/X-Niter/DeepMobLearning-1.12-Extended/projects/1).
+You can find the planed features and changes over on the [DML-1.12.2-Extended Tracker](https://github.com/X-Niter/DeepMobLearning-1.12-Extended/projects/1).
 
 
 ## Issues|Bugs|Features|ETC
@@ -64,7 +64,7 @@ I'm more then happy to get them all in and running!
 - Tinker's Construct
 
 
-##⚠️User Notice⚠️
+## ⚠️User Notice⚠️
 [Deep Mob Learning](https://github.com/xt9/DeepMobLearning) is not my work and not my software alike.
 [IterationFunk](https://github.com/xt9)"xt9" is the original developer and in such, if at any chance that the chief 
 finds this extension of his work "Out of hand" or "Unliking to his work" in any form.
