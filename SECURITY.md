@@ -10,13 +10,13 @@ githubs tools and put them to use.
 
 If you find a more sutible method in using this, let me know, Id love to hear your thots for picking.
 
-|   MC    |                    |
-| Version | Supported          |
-| ------- | ------------------ |
-| 1.12.2  | :white_check_mark: |
-| 1.11    | :x:                |
-| 1.10    | :x:                |
-| < 1.9   | :x:                |
+
+| Mc Version | Supported          |
+| ---------- | ------------------ |
+| 1.12.2     | :white_check_mark: |
+| 1.11       | :x:                |
+| 1.10       | :x:                |
+| < 1.9      | :x:                |
 
 
 ## Reporting a Vulnerability
