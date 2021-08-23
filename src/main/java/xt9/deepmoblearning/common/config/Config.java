@@ -13,6 +13,7 @@ import net.minecraftforge.fml.client.event.ConfigChangedEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import xt9.deepmoblearning.DeepConstants;
+import xt9.deepmoblearning.common.energy.DeepEnergyStorage;
 import xt9.deepmoblearning.common.mobmetas.MobKey;
 import xt9.deepmoblearning.common.util.ItemStackNBTHelper;
 
@@ -33,6 +34,10 @@ public class Config {
     public static ConfigCategory trialRewards = new ConfigCategory("trial max tier rewards");
 
     public static Property rfCostExtractionChamber;
+    public static Property rfStorageExtractionChamber;
+    public static Property rfInputExtractionChamber;
+    public static Property rfStorageSimulationChamber;
+    public static Property rfInputSimulationChamber;
     public static Property isSootedRedstoneCraftingEnabled;
     public static Property isGlitchArmorCreativeFlightEnabled;
 
@@ -53,7 +58,13 @@ public class Config {
         initPristineOutputs();
         initTrialRewards();
 
-        rfCostExtractionChamber = config.get(Configuration.CATEGORY_GENERAL, "rfCostLootFabricator", 256, "RF/t cost for the Loot Fabricator, roof is 256k RF/t");
+        rfCostExtractionChamber = config.get(Configuration.CATEGORY_GENERAL, "rfCostLootFabricator", 256, "Rf per tic (Tic is 1 second) cost for the Loot Fabricator, Max is 999999999 RF/t");
+        rfStorageExtractionChamber = config.get(Configuration.CATEGORY_GENERAL, "rfStorageLootFabricator", 8000000, "RF Storage for the Loot Fabricator, Max is 999999999");
+        rfInputExtractionChamber = config.get(Configuration.CATEGORY_GENERAL, "rfInputLootFabricator", 256000, "Rf Input per tic (Tic is 1 second) for the Loot Fabricator, Max is 999999999");
+
+        rfStorageSimulationChamber = config.get(Configuration.CATEGORY_GENERAL, "rfStorageSimulationChamber", 8000000, "RF Storage for the Simulation Chamber, Max is 999999999");
+        rfInputSimulationChamber = config.get(Configuration.CATEGORY_GENERAL, "rfInputSimulationChamber", 256000, "Rf Input per tic (Tic is 1 second) for the Simulation Chamber, Max is 999999999");
+
         isSootedRedstoneCraftingEnabled = config.get(Configuration.CATEGORY_GENERAL, "isSootedRedstoneCraftingEnabled", true, "Enable the Crafting of sooted redstone on Vanilla blocks of coal");
         isGlitchArmorCreativeFlightEnabled = config.get(Configuration.CATEGORY_GENERAL, "isGlitchArmorCreativeFlightEnabled", true, "Set to false to disable the creative flight portion of the Glitch armorset.");
 

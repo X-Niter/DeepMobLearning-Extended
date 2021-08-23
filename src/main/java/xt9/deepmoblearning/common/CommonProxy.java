@@ -66,8 +66,8 @@ public class CommonProxy implements IGuiHandler {
         EntityRegistry.registerModEntity(new ResourceLocation(DeepConstants.MODID + ":item_glitch_fragment"), EntityItemGlitchFragment.class, DeepConstants.MODID + ".item_glitch_fragment", 6, DeepMobLearning.instance, 64, 1, true);
 
         // Loot tables
-        LootTableList.register(new ResourceLocation(DeepConstants.MODID, "glitch"));
-
+        //LootTableList.register(new ResourceLocation(DeepConstants.MODID, "glitch"));
+        LootTableList.register(new ResourceLocation(DeepConstants.MODID, "loot_tables/glitch"));
     }
 
     public void init() {

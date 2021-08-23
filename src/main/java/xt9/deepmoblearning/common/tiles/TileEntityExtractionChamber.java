@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 public class TileEntityExtractionChamber extends TileEntity implements ITickable, IGuiTile {
     private BaseItemHandler pristine = new PristineHandler();
     private BaseItemHandler output = new OutputHandler(16);
-    private DeepEnergyStorage energyStorage = new DeepEnergyStorage(8000000, 256000, 0, 0);
+    private DeepEnergyStorage energyStorage = new DeepEnergyStorage(Config.rfStorageExtractionChamber.getInt(), Config.rfInputExtractionChamber.getInt(), 0, 0);
 
     public boolean isCrafting = false;
     public int energy = 0;
@@ -44,7 +44,7 @@ public class TileEntityExtractionChamber extends TileEntity implements ITickable
     public Pagination pageHandler = new Pagination(0, getLootFromPristine().size(), 9);
     private String currentPristineMatter = "";
     public ItemStack resultingItem = ItemStack.EMPTY;
-    public int energyCost = MathHelper.ensureRange(Config.rfCostExtractionChamber.getInt(), 1, 256000);
+    public int energyCost = MathHelper.ensureRange(Config.rfCostExtractionChamber.getInt(), 1, 999999999);
 
     @Override
     public void update() {

@@ -28,6 +28,10 @@ public class DeepGuiConfig extends GuiConfig {
         elements.add(new ConfigElement(Config.modelExperience));
 
         elements.add(new ConfigElement(Config.rfCostExtractionChamber));
+        elements.add(new ConfigElement(Config.rfStorageExtractionChamber));
+        elements.add(new ConfigElement(Config.rfInputExtractionChamber));
+        elements.add(new ConfigElement(Config.rfStorageSimulationChamber));
+        elements.add(new ConfigElement(Config.rfInputSimulationChamber));
         elements.add(new ConfigElement(Config.isSootedRedstoneCraftingEnabled));
         elements.add(new ConfigElement(Config.isGlitchArmorCreativeFlightEnabled));
         elements.add(new ConfigElement(Config.guiOverlaySide));
