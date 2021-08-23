@@ -88,23 +88,23 @@ public class Config {
     }
 
     private static void initDataModelRFCost() {
-        dataModel.setComment("Simulation costs for all the data models (in RF/t)\nCost should not exceed a full machine buffer (Max 256000 RF/t)\nValues over the max will be set to the max");
+        dataModel.setComment("Simulation costs for all the data models (in RF/t)\nCost should not exceed a full machine buffer (Max 66666666 RF/t)\nValues over the max will be set to the max");
         config.setCategoryComment(dataModel.getName(), dataModel.getComment());
 
-        dataModel.put(MobKey.ZOMBIE, config.get(dataModel.getName(), MobKey.ZOMBIE, 80, null, 1, 256000));
-        dataModel.put(MobKey.SKELETON, config.get(dataModel.getName(), MobKey.SKELETON, 80, null, 1, 256000));
-        dataModel.put(MobKey.BLAZE, config.get(dataModel.getName(), MobKey.BLAZE, 256, null, 1, 256000));
-        dataModel.put(MobKey.ENDERMAN, config.get(dataModel.getName(), MobKey.ENDERMAN, 512, null, 1, 256000));
-        dataModel.put(MobKey.WITHER, config.get(dataModel.getName(), MobKey.WITHER, 2048, null, 1, 256000));
-        dataModel.put(MobKey.WITCH, config.get(dataModel.getName(), MobKey.WITCH, 120, null, 1, 256000));
-        dataModel.put(MobKey.SPIDER, config.get(dataModel.getName(), MobKey.SPIDER, 80, null, 1, 256000));
-        dataModel.put(MobKey.CREEPER, config.get(dataModel.getName(), MobKey.CREEPER, 80, null, 1, 256000));
-        dataModel.put(MobKey.GHAST, config.get(dataModel.getName(), MobKey.GHAST, 372, null, 1, 256000));
-        dataModel.put(MobKey.SLIME, config.get(dataModel.getName(), MobKey.SLIME, 150, null, 1, 256000));
-        dataModel.put(MobKey.DRAGON, config.get(dataModel.getName(), MobKey.DRAGON, 2560, null, 1, 256000));
-        dataModel.put(MobKey.SHULKER, config.get(dataModel.getName(), MobKey.SHULKER, 256, null, 1, 256000));
-        dataModel.put(MobKey.GUARDIAN, config.get(dataModel.getName(), MobKey.GUARDIAN, 340,null, 1, 256000));
-        dataModel.put(MobKey.WITHERSKELETON, config.get(dataModel.getName(), MobKey.WITHERSKELETON, 880,null, 1, 256000));
+        dataModel.put(MobKey.ZOMBIE, config.get(dataModel.getName(), MobKey.ZOMBIE, 80, null, 1, 66666666));
+        dataModel.put(MobKey.SKELETON, config.get(dataModel.getName(), MobKey.SKELETON, 80, null, 1, 66666666));
+        dataModel.put(MobKey.BLAZE, config.get(dataModel.getName(), MobKey.BLAZE, 256, null, 1, 66666666));
+        dataModel.put(MobKey.ENDERMAN, config.get(dataModel.getName(), MobKey.ENDERMAN, 512, null, 1, 66666666));
+        dataModel.put(MobKey.WITHER, config.get(dataModel.getName(), MobKey.WITHER, 2048, null, 1, 66666666));
+        dataModel.put(MobKey.WITCH, config.get(dataModel.getName(), MobKey.WITCH, 120, null, 1, 66666666));
+        dataModel.put(MobKey.SPIDER, config.get(dataModel.getName(), MobKey.SPIDER, 80, null, 1, 66666666));
+        dataModel.put(MobKey.CREEPER, config.get(dataModel.getName(), MobKey.CREEPER, 80, null, 1, 66666666));
+        dataModel.put(MobKey.GHAST, config.get(dataModel.getName(), MobKey.GHAST, 372, null, 1, 66666666));
+        dataModel.put(MobKey.SLIME, config.get(dataModel.getName(), MobKey.SLIME, 150, null, 1, 66666666));
+        dataModel.put(MobKey.DRAGON, config.get(dataModel.getName(), MobKey.DRAGON, 2560, null, 1, 66666666));
+        dataModel.put(MobKey.SHULKER, config.get(dataModel.getName(), MobKey.SHULKER, 256, null, 1, 66666666));
+        dataModel.put(MobKey.GUARDIAN, config.get(dataModel.getName(), MobKey.GUARDIAN, 340,null, 1, 66666666));
+        dataModel.put(MobKey.WITHERSKELETON, config.get(dataModel.getName(), MobKey.WITHERSKELETON, 880,null, 1, 66666666));
 
         /* Extension models */
         if(DeepConstants.MOD_TE_LOADED) {
