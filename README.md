@@ -7,7 +7,7 @@
     <img alt="Twitter: X_Niter" src="https://img.shields.io/twitter/follow/X_Niter.svg?style=social" target="_blank" />
   </a>
   <a href="https://paypal.me/RileyBWayz"
-    <img src="https://img.shields.io/badge/Donate-PayPal-blue.svg" target="_blank" />
+    <img alt="Paypal: X_Niter" src="https://img.shields.io/badge/Donate-PayPal-blue.svg" target="_blank" />
   </a>
 </p>
 
