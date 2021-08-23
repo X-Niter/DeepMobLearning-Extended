@@ -3,9 +3,6 @@
   <a href="https://discord.gg/n3uEJwg">
       <img src="https://discordapp.com/api/guilds/401537312246202389/widget.png" alt="Discord-Server"/>
   </a>
-  <a href="https://github.com/X-Niter/DeepMobLearning-1.12-Extended/blob/master/LICENSE">
-    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" target="_blank" />
-  </a>
   <a href="https://twitter.com/X_Niter">
     <img alt="Twitter: X_Niter" src="https://img.shields.io/twitter/follow/X_Niter.svg?style=social" target="_blank" />
   </a>
