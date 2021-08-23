@@ -7,7 +7,7 @@
     <img alt="Twitter: X_Niter" src="https://img.shields.io/twitter/follow/X_Niter.svg?style=social" target="_blank" />
   </a>
   <a href="https://www.paypal.com/paypalme/RileyBWayz">
-    <img height="32" src="./badges/Paypal/Coffee/Blue/Short.png">
+    <img height="32" src="https://github.com/everdrone/coolbadge/blob/master/badges/Paypal/Coffee/Dark/Short.png?raw=true">
 </p>
 
 
