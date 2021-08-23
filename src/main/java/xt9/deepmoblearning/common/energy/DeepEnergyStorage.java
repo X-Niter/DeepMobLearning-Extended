@@ -11,8 +11,12 @@ public class DeepEnergyStorage extends EnergyStorage {
         super(capacity, maxIn, maxOut, energy);
     }
 
-    public void voidEnergy(int energy) {
+    /*public void voidEnergy(int energy) {
         this.energy = getEnergyStored() - energy;
+    }*/
+    public void voidEnergy(int energy) {
+        this.energy -= Math.min(this.energy, energy);
+        getEnergyStored();
     }
 
     public NBTTagCompound writeEnergy(NBTTagCompound compound) {

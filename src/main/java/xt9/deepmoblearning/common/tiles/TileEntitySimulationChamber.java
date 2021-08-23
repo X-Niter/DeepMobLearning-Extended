@@ -18,6 +18,7 @@ import net.minecraftforge.items.CapabilityItemHandler;
 import net.minecraftforge.items.wrapper.CombinedInvWrapper;
 import xt9.deepmoblearning.DeepConstants;
 import xt9.deepmoblearning.common.Registry;
+import xt9.deepmoblearning.common.config.Config;
 import xt9.deepmoblearning.common.energy.DeepEnergyStorage;
 import xt9.deepmoblearning.common.handlers.BaseItemHandler;
 import xt9.deepmoblearning.common.handlers.DataModelHandler;
@@ -44,7 +45,7 @@ public class TileEntitySimulationChamber extends TileEntity implements ITickable
     private BaseItemHandler polymer = new PolymerHandler();
     private BaseItemHandler lOutput = new OutputHandler();
     private BaseItemHandler pOutput = new OutputHandler();
-    private DeepEnergyStorage energyStorage = new DeepEnergyStorage(8000000, 256000, 0, 0);
+    private DeepEnergyStorage energyStorage = new DeepEnergyStorage(Config.rfStorageSimulationChamber.getInt(), Config.rfInputSimulationChamber.getInt(), 0, 0);
 
     private HashMap<String, Animation> simulationAnimations = new HashMap<>();
     private HashMap<String, String> simulationText = new HashMap<>();
@@ -158,7 +159,7 @@ public class TileEntitySimulationChamber extends TileEntity implements ITickable
     public boolean hasEnergyForSimulation() {
         if(hasDataModel()) {
             int ticksPerSimulation = 300;
-            return energyStorage.getEnergyStored() > (ticksPerSimulation * DataModel.getSimulationTickCost(getDataModel()));
+            return energyStorage.getEnergyStored() > (ticksPerSimulation / 20 * DataModel.getSimulationTickCost(getDataModel()));
         } else {
             return false;
         }
