@@ -6,9 +6,9 @@
   <a href="https://twitter.com/X_Niter">
     <img alt="Twitter: X_Niter" src="https://img.shields.io/twitter/follow/X_Niter.svg?style=social" target="_blank" />
   </a>
-  <a
-  [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](rileyman1999@yahoo.com)
-     </a>
+  <a href="https://paypal.me/RileyBWayz"
+    <img src="https://img.shields.io/badge/Donate-PayPal-blue.svg" target="_blank" />
+  </a>
 </p>
 
 ## About Deep Mob Learning
