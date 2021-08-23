@@ -6,6 +6,9 @@
   <a href="https://twitter.com/X_Niter">
     <img alt="Twitter: X_Niter" src="https://img.shields.io/twitter/follow/X_Niter.svg?style=social" target="_blank" />
   </a>
+  <a href="https://patreon.com/X_Niter">
+    <img src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3DX_Niter%26type%3Dpatrons&style=flat" alt="Support me on Patreon" />
+  </a>
   <a href="https://www.paypal.com/paypalme/RileyBWayz">
     <img height="32" src="https://github.com/everdrone/coolbadge/blob/master/badges/Paypal/Coffee/Dark/Short.png?raw=true">
 </p>
