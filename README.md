@@ -1,7 +1,7 @@
 <h1 align="center">Deep Mob Learning 1.12.2 Extended</h1>
 <p>
-  <a href="https://discord.gg/SjveGar">
-      <img src="https://discordapp.com/api/guilds/678877745060773900/widget.png" alt="Discord-Server"/>
+  <a href="https://discord.gg/n3uEJwg">
+      <img src="https://discordapp.com/api/guilds/401537312246202389/widget.png" alt="Discord-Server"/>
   </a>
   <a href="https://github.com/X-Niter/DeepMobLearning-1.12-Extended/blob/master/LICENSE">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" target="_blank" />
