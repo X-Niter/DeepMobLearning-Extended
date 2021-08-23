@@ -10,7 +10,7 @@
     <img src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3DX_Niter%26type%3Dpatrons&style=flat" alt="Support me on Patreon" />
   </a>
   <a href="https://www.paypal.com/paypalme/RileyBWayz">
-    <img height="32" src="https://img.shields.io/badge/Donate-PayPal-blue.svg">
+    <img src="https://img.shields.io/badge/Donate-PayPal-blue.svg">
 </p>
 
 
