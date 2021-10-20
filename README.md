@@ -10,12 +10,13 @@
     <img src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3DX_Niter%26type%3Dpatrons&style=flat" alt="Support me on Patreon" />
   </a>
   <a href="https://www.paypal.com/paypalme/RileyBWayz">
-    <img src="https://img.shields.io/badge/Donate-PayPal-blue.svg" />
+    <img src="https://img.shields.io/badge/Donate-PayPal-blue.svg"/>
+    </a>
 </p>
 
 
-## About Deep Mob Learning Extended
 
+## About Deep Mob Learning Extended
 
 A server friendly mod for mob loot acquisition. Inspired by Soul shards where you could "collect" mob kills to later
 reuse them for mob spawners.
@@ -27,6 +28,7 @@ To get started you will need a Deep Learner, which will house the data models, a
 some type of mob data model.
 
 Once your data models have reached higher tiers you can use them in the simulation chamber to get loot.
+
 
 ## DMLE's Intentions
 
@@ -43,7 +45,6 @@ You can find the planed features and changes over on the [DMLE Tracker](https://
 
 ## Issues, Bugs, Features, etc...
 
-
 ##### Issues & Bugs
 If you have any issues feel free to open up an [issue](https://github.com/X-Niter/DeepMobLearning-Extended/issues) as long as it's related to this project explicitley.
 
@@ -58,7 +59,6 @@ I'm absolutly NOT a java professionial, this is a hobbyist project for learning 
 With that being said, I have nothing against pull requests, I'll do my diligence to work with any PR's (In safe moderation).
 Even if you are just changing some comments due to OCD, all the way to inplementing something you want in,
 I'm more then happy to get them all in and running! 
-
 
 
 ## Mods Supported
