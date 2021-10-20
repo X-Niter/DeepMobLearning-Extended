@@ -1,13 +1,13 @@
 [{
   "modid": "deepmoblearning",
-  "name": "Deep Mob Learning (Grindfest Edition)",
+  "name": "Deep Mob Learning Extended",
   "description": "Server friendly mob loot acquisition.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "https://minecraft.curseforge.com/projects/deep-mob-learning",
   "updateUrl": "",
-  "authorList": ["xt9 (IterationFunk)"],
-  "credits": "",
+  "authorList": ["xt9 (IterationFunk)", "Ethryan (Grindfest Edition)", "X_Niter (DML Extended)"],
+  "credits": "xtp9 for origin amazing mod, Ethryan for Grindfest Edition (More tiers), and all you amazing people",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
