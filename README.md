@@ -14,7 +14,7 @@
 </p>
 
 
-## About Deep Mob Learning
+## About Deep Mob Learning Extended
 
 
 A server friendly mod for mob loot acquisition. Inspired by Soul shards where you could "collect" mob kills to later
