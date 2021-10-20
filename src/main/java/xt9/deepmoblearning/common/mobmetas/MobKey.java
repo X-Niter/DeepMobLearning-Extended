@@ -26,4 +26,10 @@ public class MobKey {
     public static final String TWILIGHTGLACIER = "twilightglacier";
     public static final String TINKERSLIME = "tinkerslime";
     public static final String MO_ANDROID = "mo_android";
+
+    // Vanilla Passive Entities
+    public static final String SHEEP = "sheep";
+    public static final String COW = "cow";
+    public static final String CHICKEN = "cow";
+    public static final String PIG = "pig";
 }

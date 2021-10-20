@@ -5,15 +5,13 @@ import net.minecraftforge.energy.EnergyStorage;
 
 /**
  * Created by xt9 on 2017-06-16.
+ * Edited by X_Niter on Aug-2021
  */
 public class DeepEnergyStorage extends EnergyStorage {
     public DeepEnergyStorage(int capacity, int maxIn, int maxOut, int energy) {
         super(capacity, maxIn, maxOut, energy);
     }
 
-    /*public void voidEnergy(int energy) {
-        this.energy = getEnergyStored() - energy;
-    }*/
     public void voidEnergy(int energy) {
         this.energy -= Math.min(this.energy, energy);
         getEnergyStored();

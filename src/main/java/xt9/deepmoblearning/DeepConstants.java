@@ -40,6 +40,11 @@ public class DeepConstants {
     public static final String NBT_STRING_AFFIX_CONNECTION = DeepConstants.MODID + ":mob_type";
 
     public static final class LOOT {
+        public static final String[] SHEEP = {
+                "minecraft:wool,1,0",
+                "minecraft:mutton,1,0"
+        };
+
         public static final String[] CREEPER = {
             "minecraft:gunpowder,64,0",
             "minecraft:skull,6,4"
@@ -206,6 +211,10 @@ public class DeepConstants {
     }
 
     public static final class MOBS {
+        public static final String[] SHEEP = {
+                "minecraft:sheep"
+        };
+
         public static final String[] CREEPER = {
                 "minecraft:creeper"
         };

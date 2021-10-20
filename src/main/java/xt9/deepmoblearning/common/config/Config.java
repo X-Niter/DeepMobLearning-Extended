@@ -143,6 +143,9 @@ public class Config {
         dataModelMobNames.put(MobKey.GUARDIAN, new Property(MobKey.GUARDIAN, config.getStringList(MobKey.GUARDIAN, dataModelMobNames.getName(), DeepConstants.MOBS.GUARDIAN, "Guardian"), Property.Type.STRING));
         dataModelMobNames.put(MobKey.WITHERSKELETON, new Property(MobKey.WITHERSKELETON, config.getStringList(MobKey.WITHERSKELETON, dataModelMobNames.getName(), DeepConstants.MOBS.WITHERSKELETON, "Wither Skeleton"), Property.Type.STRING));
 
+        //Vanilla Passive Entities
+        dataModelMobNames.put(MobKey.SHEEP, new Property(MobKey.SHEEP, config.getStringList(MobKey.SHEEP, dataModelMobNames.getName(), DeepConstants.MOBS.SHEEP, "Sheep"), Property.Type.STRING));
+
         /* Extension models */
         if(DeepConstants.MOD_TE_LOADED) {
             dataModelMobNames.put(MobKey.TE, new Property(MobKey.TE, config.getStringList(MobKey.TE, dataModelMobNames.getName(), DeepConstants.MOBS.THERMALELEMENTAL, "Thermal Elemental"), Property.Type.STRING));
@@ -241,6 +244,8 @@ public class Config {
         pristineOutputs.put(MobKey.SHULKER, new Property(MobKey.SHULKER, config.getStringList(MobKey.SHULKER, pristineOutputs.getName(), DeepConstants.LOOT.SHULKER, "Shulker"), Property.Type.STRING));
         pristineOutputs.put(MobKey.GUARDIAN, new Property(MobKey.GUARDIAN, config.getStringList(MobKey.GUARDIAN, pristineOutputs.getName(), DeepConstants.LOOT.GUARDIAN, "Guardian"), Property.Type.STRING));
 
+        //Vanilla Passive Entities
+        pristineOutputs.put(MobKey.SHEEP, new Property(MobKey.SHEEP, config.getStringList(MobKey.SHEEP, pristineOutputs.getName(), DeepConstants.LOOT.SHEEP, "Guardian"), Property.Type.STRING));
 
         if(DeepConstants.MOD_TE_LOADED) {
             pristineOutputs.put(MobKey.TE, new Property(MobKey.TE, config.getStringList(MobKey.TE, pristineOutputs.getName(), DeepConstants.LOOT.THERMALELEMENTAL, "Thermal Elemental"), Property.Type.STRING));
