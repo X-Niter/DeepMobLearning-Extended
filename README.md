@@ -31,7 +31,7 @@ Once your data models have reached higher tiers you can use them in the simulati
 ## DMLE's Intentions
 
 The intentions of this forked project is to study and expand the mod in it's 1.12.2 state to further the experience and push the project to it's limits.
-Being branched off of a pre-modifed form of DML called [Deep Mob Learning (Grindfest Edition)](https://github.com/Ethryan/DeepMobLearning) modified by 
+Being branched off of a pre-modifed form of DML called [Deep Mob Learning "Grindfest Edition"](https://github.com/Ethryan/DeepMobLearning) modified by 
 [Ethryan](https://github.com/Ethryan).
 I have been taking the time to build off that and further experiment with adding more features into the project!
 
